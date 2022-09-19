@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Port<span>fólio</span></a></div>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1"><h1>Olá, meu nome é </h1></div>
+                <div class="text-2"><h1>Mariana</h1></div>
+                <div class="text-3"><h1>eu sou <span>Front-end Developer</span></h1></div>
+            </div>
+            <div class="foto3">
+                <img src="img/foto3.png" alt="Foto Mariana">
+            </div>
+        </div>
+    </section>
+    <div class="sobremim">
+        <h2>Sobre mim</h2>
+    </div>
+    <section class="aboutme">
+        <div class="descricao">
+            <div class="foto2">
+                 <img src="img/foto2.png" alt="Foto Mariana">
+            </div>
+        
+            <div class="resumo">
+                <Estou>Olá, sou desenvolvedora web front-end, estudante de engenharia e apaixonada por tecnologia. Estou em busca de inovação e novas oportunidades de aprender sobre Web development.</p>
+                <div class="baixarcur">
+                    <a download="" href="#" class="button button--flex">
+                        Download cv<ion-icon name="download-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="skills">
+        <h2>Skills</h2>
+    </div>
+    <section class="hab">
+        <div class="col1">
+            <div class="html">
+                <img src="img/html.png" alt="">
+                <div class="text-html">
+                    <h3>HTML</h3>
+                </div>
+            </div>
+            <div class="css">
+                <img src="img/css.png" alt="">
+                <div class="text-css">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="js">
+                <img src="img/js.png" alt="">
+                <div class="text-js">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+            <div class="git">
+                <img src="img/git.png" alt="">
+                <div class="text-git">
+                    <h3>Git/Github</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="projetos">
+        <h2>Projetos</h2>
+    </div>
+    <section class="proj">
+        <div class="coluna1">
+            <div class="cadastro"> 
+                <a href="https://maringama.github.io/cadastro/">
+                    <img src="img/cadastro.png" alt="">
+                </a>
+                <p>Site de cadastro</p>
+            </div>
+            <div class="lp"> 
+                <a href="https://maringama.github.io/siteevento/">
+                    <img src="img/lp.png" alt="">
+                </a>
+                <p>Landing page</p>
+            </div>
+         </div>
+         <div class="coluna2">
+            <div class="primeirosite"> 
+                <a href="https://maringama.github.io/MySite/">
+                    <img src="img/primeirosite.png" alt="">
+                </a>
+                <p>Meu primeiro site</p>
+            </div>
+            <div class="starbucks"> 
+                <a href="https://maringama.github.io/starbuckscoffee/">
+                    <img src="img/starbucks.png" alt="">
+                </a>
+                <p>Site de empresa</p>
+            </div>
+         </div>
+
+    </section>
+    <div class="contato">
+        <h2>Contato</h2>
+    </div>
+    <section class="contat">
+        <div class="cont">
+            <div class="1coluna">
+                   <div class="text">
+                    Entre em contato
+                   </div>
+                   <div class="inform">
+                  
+                   <div class="info">
+                         <div class="head">Nome</div>
+                         <div class="sub-title">Mariana Gama</div>
+                         <div class="head">Endereço</div>
+                         <div class="sub-title">Recife, PE</div>
+                         <div class="head">Email</div>
+                         <div class="sub-title">marianagamaeng@gmail.com</div>
+                   </div>
+                   </div>
+                   
+           </div>
+            
+            <div class="2coluna">
+                <div class="text">Mensagem</div>
+                <form id="register-form" action="#">
+                    <div class="form">
+                        <div class="formnome">
+                            <input type="text" placeholder="Nome" required data-min-lenght=""3>
+                        </div>
+                        <div class="formsn">
+                            <input type="text" placeholder="Sobrenome" required>
+                        </div>
+                    </div>
+                    <div class="form2">
+                        <div class="formemail">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="formtexto">
+                           <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button id="btn-submit" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+    <p class="error-validation template"></p>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
